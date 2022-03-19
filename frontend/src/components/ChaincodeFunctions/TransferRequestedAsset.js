@@ -92,7 +92,7 @@ function TransferRequestedAsset(props) {
                         <div className="d-flex align-items-center 
                   justify-content-center flex-wrap p-2 m-2 ">
                         
-                                <PrintAssets ID={postReply.asset_obj.ID}  weight={postReply.asset_obj.weight} owner={postReply.asset_obj.owner} creator={postReply.asset_obj.creator} expirationDate={postReply.asset_obj.expirationDate} assetType={postReply.asset_obj.assetType} ownerOrg={postReply.asset_obj.ownerOrg} daysLeft={postReply.expirationTime}/>
+                                <PrintAssets ID={postReply.asset_obj.ID}  weight={postReply.asset_obj.weight} owner={postReply.asset_obj.owner} creator={postReply.asset_obj.creator} expirationDate={postReply.asset_obj.expirationDate} assetType={postReply.asset_obj.assetType} ownerOrg={postReply.asset_obj.ownerOrg} daysLeft={postReply.expirationTime} creationTimestamp={postReply.asset_obj.timestamp}/>
                             
                         </div> 
                         <hr />

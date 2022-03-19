@@ -90,7 +90,7 @@ function ReadBuyRequest(props) {
                         </div>      
                         <section>
                         
-                            <PrintBuyRequest assetID={postReply.assetID} buyerID={postReply.buyerID} buyerMSP={postReply.buyerMSP}/>
+                            <PrintBuyRequest assetID={postReply.assetID} buyerID={postReply.buyerID} buyerMSP={postReply.buyerMSP} timestamp={postReply.timestamp} txId={postReply.txId} salt={postReply.salt}/>
                             
                         </section> 
                         <hr />
